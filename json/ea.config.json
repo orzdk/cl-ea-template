@@ -1,0 +1,20 @@
+{
+	"apiRequest": {
+	    "method": "GET",
+	    "url":"https://min-api.cryptocompare.com/data/price",	    
+	    "headers": {},
+	    "params": {}
+	},
+	"requiredKeys": {
+	  "in":{
+	    "fsym": { "aka": ["base", "from", "coin"] },
+	    "tsyms": { "aka": ["quote", "to", "market"] }
+	  },
+	  "out": {
+	    "USD": { "aka": ["USD"] }
+	  }
+	},
+	"tokens": {
+		"incoming": ["mytoken123"]
+	}
+}
