@@ -5,7 +5,7 @@
     -------------------------------------
     Simple parameter validation is enabled for adapter input and API output, replicating the
     functionality of Validator() and Requester.validateResultNumber() in the classic templates,
-    and can be configured in ./ea.rconfig.json.
+    and can be configured in ./ea.config.json.
 
     This template provides both a syncronous and a simulated asyncronous adapter. When using a 
     syncronous adapter, the result is expected to be returned to the node within a very 
